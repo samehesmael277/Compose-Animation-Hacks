@@ -69,4 +69,5 @@ dependencies {
     implementation(libs.androidx.material.icons.extended)
     implementation(libs.swipe)
     implementation (libs.drawbox)
+    implementation("com.github.Abhimanyu14:compose-emoji-picker:1.0.0-alpha16")
 }

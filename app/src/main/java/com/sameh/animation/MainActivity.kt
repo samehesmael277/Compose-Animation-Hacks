@@ -14,6 +14,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.sameh.animation.animations.ComposeEmojiPickerDemo
 import com.sameh.animation.animations.DrawScreen
 import com.sameh.animation.animations.SwipeableActionsItem
 import com.sameh.animation.ui.theme.AnimationTheme
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AnimationTheme {
-                DrawScreen()
+                ComposeEmojiPickerDemo()
             }
         }
     }
@@ -34,6 +35,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     AnimationTheme {
-        DrawScreen()
+        ComposeEmojiPickerDemo()
     }
 }
