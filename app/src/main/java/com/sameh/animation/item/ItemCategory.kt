@@ -1,4 +1,4 @@
-package com.sameh.animation.animations
+package com.sameh.animation.item
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
