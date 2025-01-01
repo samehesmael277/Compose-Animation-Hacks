@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import com.sameh.animation.animations.CallAnimation
+import com.sameh.animation.animations.CallColorPicker
 import com.sameh.animation.ui.theme.AnimationTheme
 
 class MainActivity : ComponentActivity() {
@@ -15,7 +16,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AnimationTheme {
-                CallAnimation()
+                CallColorPicker()
             }
         }
     }
