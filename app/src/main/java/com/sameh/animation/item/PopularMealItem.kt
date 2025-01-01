@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
@@ -35,9 +36,9 @@ private fun PopularMealItemPreview() {
 }
 
 @Composable
-fun PopularMealItem(modifier: Modifier = Modifier) {
+fun PopularMealItem() {
     Card(
-        modifier = modifier
+        modifier = Modifier
             .width(200.dp)
             .height(200.dp),
         shape = RoundedCornerShape(12.dp),
@@ -57,10 +58,10 @@ fun PopularMealItem(modifier: Modifier = Modifier) {
                 .weight(8f),
             contentScale = ContentScale.Crop
         )
-
         Text(
             text = "Meal Name",
             modifier = Modifier
+                .padding(8.dp)
                 .fillMaxWidth()
                 .weight(2f),
         )

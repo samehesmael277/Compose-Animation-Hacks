@@ -41,7 +41,10 @@ fun AreaItem() {
         Text(
             text = "Area",
             modifier = Modifier
-                .padding(8.dp)
+                .padding(
+                    vertical = 10.dp,
+                    horizontal = 16.dp
+                )
         )
     }
 }
