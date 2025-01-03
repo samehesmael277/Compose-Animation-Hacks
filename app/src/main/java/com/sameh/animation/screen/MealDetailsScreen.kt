@@ -43,7 +43,24 @@ import kotlin.random.Random
 @Composable
 fun MealDetailsScreen() {
     val colors = listOf(
-        Color(0xFFF22B55)
+        Color(0xFFF22B55),
+        Color(0xFF1d8348),
+        Color(0xFF21618c),
+        Color(0xFF5b2c6f),
+        Color(0xFF943126),
+        Color(0xFF0e6655),
+        Color(0xFF9c640c),
+        Color(0xFF873600),
+        Color(0xFF1c2833),
+        Color(0xFF212f3c),
+        Color(0xFF5f6a6a),
+        Color(0xFF1a5276),
+        Color(0xFF7b241c),
+        Color(0xFF633974),
+        Color(0xFF1a5276),
+        Color(0xFF117864),
+        Color(0xFF196f3d),
+        Color(0xFF9a7d0a),
     )
     val randomIndex = Random.nextInt(colors.size)
     val randomColor = colors[randomIndex]
